@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -27,4 +33,9 @@ body {
   background: var(--background);
   color: var(--bege);
   font-family: 'Poppins', sans-serif;
+}
+
+section > div, header > div {
+  max-width: 1600px;
+  padding: 0 32px;
 }
