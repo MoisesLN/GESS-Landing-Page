@@ -5,6 +5,7 @@
   --foreground: #171717;
   --bege: #F5F5DC;
   --laranja-escuro: #A86900;
+  --marrom: #452F00;
 }
 
 @theme inline {
@@ -12,8 +13,7 @@
   --color-foreground: var(--foreground);
   --color-bege: var(--bege);
   --color-laranja-escuro: var(--laranja-escuro);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-marrom: var(--marrom);
 }
 
 @media (prefers-color-scheme: dark) {
