@@ -1,0 +1,12 @@
+#didh {
+  background-image: linear-gradient(
+    to right,
+    var(--vermelho) calc((100% / 7) * 0) calc((100% / 7) * 1),
+    var(--laranja-vivo) calc((100% / 7) * 1) calc((100% / 7) * 2),
+    var(--laranja-gremio) calc((100% / 7) * 2) calc((100% / 7) * 3),
+    var(--verde) calc((100% / 7) * 3) calc((100% / 7) * 4),
+    var(--ciano) calc((100% / 7) * 4) calc((100% / 7) * 5),
+    var(--azul) calc((100% / 7) * 5) calc((100% / 7) * 6),
+    var(--roxo) calc((100% / 7) * 6) calc((100% / 7) * 7)
+  );
+}

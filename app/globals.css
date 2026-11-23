@@ -12,7 +12,13 @@
   --bege: #F5F5DC;
   --laranja-escuro: #A86900;
   --laranja-gremio: #E38E00;
+  --laranja-vivo: #D95B01;
   --marrom: #452F00;
+  --vermelho: #AC2626;
+  --verde: #22800A;
+  --ciano: #54B5AA;
+  --azul: #2660AC;
+  --roxo: #3E26AC;
 }
 
 @theme inline {
@@ -21,7 +27,13 @@
   --color-bege: var(--bege);
   --color-laranja-escuro: var(--laranja-escuro);
   --color-laranja-gremio: var(--laranja-gremio);
+  --color-laranja-vivo: var(--laranja-vivo);
   --color-marrom: var(--marrom);
+  --color-vermelho: var(--vermelho);
+  --color-verde: var(--verde);
+  --color-ciano: var(--ciano);
+  --color-azul: var(--azul);
+  --color-roxo: var(--roxo);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,7 +44,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--bege);
   color: var(--bege);
   font-family: 'Poppins', sans-serif;
 }
