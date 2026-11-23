@@ -1,5 +1,6 @@
 "use server";
 
+import DIEXE from "@/components/DIEXE/page";
 import Diretorias from "@/components/Diretorias/page";
 import Header from "@/components/Header/page";
 import Hero from "@/components/Hero/page";
@@ -10,7 +11,7 @@ export default async function Home() {
       <Header />
       <Hero />
       <Diretorias />
-      Abc
+      <DIEXE />
     </main>
   );
 }

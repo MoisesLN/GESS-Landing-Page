@@ -11,6 +11,7 @@
   --foreground: #171717;
   --bege: #F5F5DC;
   --laranja-escuro: #A86900;
+  --laranja-gremio: #E38E00;
   --marrom: #452F00;
 }
 
@@ -19,6 +20,7 @@
   --color-foreground: var(--foreground);
   --color-bege: var(--bege);
   --color-laranja-escuro: var(--laranja-escuro);
+  --color-laranja-gremio: var(--laranja-gremio);
   --color-marrom: var(--marrom);
 }
 
