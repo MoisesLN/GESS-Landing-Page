@@ -17,6 +17,9 @@
   --vermelho: #AC2626;
   --vermelho-escuro: #800000;
   --verde: #22800A;
+  --verde-claro: #497E3B;
+  --verde-musgo: #34582A;
+  --verde-escuro: #36602B;
   --ciano: #54B5AA;
   --azul: #2660AC;
   --roxo: #3E26AC;
@@ -35,6 +38,9 @@
   --color-vermelho: var(--vermelho);
   --color-vermelho-escuro: var(--vermelho-escuro);
   --color-verde: var(--verde);
+  --color-verde-claro: var(--verde-claro);
+  --color-verde-musgo: var(--verde-musgo);
+  --color-verde-escuro: var(--verde-escuro);
   --color-ciano: var(--ciano);
   --color-azul: var(--azul);
   --color-roxo: var(--roxo);
