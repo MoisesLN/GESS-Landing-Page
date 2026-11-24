@@ -10,6 +10,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --bege: #F5F5DC;
+  --amarelo-escuro: #FFA726;
   --laranja-escuro: #A86900;
   --laranja-gremio: #E38E00;
   --laranja-vivo: #D95B01;
@@ -38,6 +39,7 @@
   --color-laranja-gremio: var(--laranja-gremio);
   --color-laranja-vivo: var(--laranja-vivo);
   --color-laranja: var(--laranja);
+  --color-amarelo-escuro: var(--amarelo-escuro);
   --color-marrom: var(--marrom);
   --color-vermelho: var(--vermelho);
   --color-vermelho-escuro: var(--vermelho-escuro);

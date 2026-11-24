@@ -8,6 +8,7 @@ import DIEL from "@/components/DIEL/page";
 import DIEXE from "@/components/DIEXE/page";
 import DIMAS from "@/components/DIMAS/page";
 import Diretorias from "@/components/Diretorias/page";
+import Footer from "@/components/Footer/page";
 import Header from "@/components/Header/page";
 import Hero from "@/components/Hero/page";
 import Movimento from "@/components/Movimento/page";
@@ -27,6 +28,7 @@ export default async function Home() {
       <DIAES />
       <DICOM />
       <Movimento />
+      <Footer />
     </main>
   );
 }
