@@ -1,5 +1,6 @@
 "use server";
 
+import DIARC from "@/components/DIARC/page";
 import DIDH from "@/components/DIDH/page";
 import DIEXE from "@/components/DIEXE/page";
 import Diretorias from "@/components/Diretorias/page";
@@ -15,6 +16,7 @@ export default async function Home() {
       <DIEXE />
       <div className="h-50 invisible" aria-hidden />
       <DIDH />
+      <DIARC />
     </main>
   );
 }

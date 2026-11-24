@@ -15,10 +15,13 @@
   --laranja-vivo: #D95B01;
   --marrom: #452F00;
   --vermelho: #AC2626;
+  --vermelho-escuro: #800000;
   --verde: #22800A;
   --ciano: #54B5AA;
   --azul: #2660AC;
   --roxo: #3E26AC;
+  --rosa-medio: #E9B1B1;
+  --rosa-escuro: #E07272;
 }
 
 @theme inline {
@@ -30,10 +33,13 @@
   --color-laranja-vivo: var(--laranja-vivo);
   --color-marrom: var(--marrom);
   --color-vermelho: var(--vermelho);
+  --color-vermelho-escuro: var(--vermelho-escuro);
   --color-verde: var(--verde);
   --color-ciano: var(--ciano);
   --color-azul: var(--azul);
   --color-roxo: var(--roxo);
+  --color-rosa-medio: var(--rosa-medio);
+  --color-rosa-escuro: var(--rosa-escuro);
 }
 
 @media (prefers-color-scheme: dark) {
