@@ -13,12 +13,12 @@ export default async function DIMAS() {
             <h1 className="text-8xl font-bold">DIMAS</h1>
             <h2 className="text-[32px] leading-8 text-center">Diretoria de <br />Meio Ambiente<br /> e Saúde</h2>
           </div>
-          <p className="text-[20px] absolute top-3/5 right-0 w-175">Responsável por promover a conscientização sobre questões relacionadas à saúde e ao meio ambiente. Além disso, essa diretoria mantém relações com entidades de saúde e meio ambiente, buscando parcerias e recursos para a implementação de ações nesses âmbitos.</p>
+          <p className="text-[20px] absolute top-3/5 right-0 w-150">Responsável por promover a conscientização sobre questões relacionadas à saúde e ao meio ambiente. Além disso, essa diretoria mantém relações com entidades de saúde e meio ambiente, buscando parcerias e recursos para a implementação de ações nesses âmbitos.</p>
 
           {/* Imagens */}
           <Image src={diexe1} alt="" className="aspect-square w-75 border-24 border-white absolute -top-1/10 left-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-175 absolute -top-1/16 right-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-175 absolute -bottom-25 left-0 rounded-2xl" />
+          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
+          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
         </div>
       </section>
 

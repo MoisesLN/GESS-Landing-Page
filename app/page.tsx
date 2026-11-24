@@ -10,6 +10,7 @@ import DIMAS from "@/components/DIMAS/page";
 import Diretorias from "@/components/Diretorias/page";
 import Header from "@/components/Header/page";
 import Hero from "@/components/Hero/page";
+import Movimento from "@/components/Movimento/page";
 
 export default async function Home() {
   return (
@@ -25,6 +26,7 @@ export default async function Home() {
       <DIEL />
       <DIAES />
       <DICOM />
+      <Movimento />
     </main>
   );
 }

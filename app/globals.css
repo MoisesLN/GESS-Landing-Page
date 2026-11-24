@@ -17,6 +17,7 @@
   --marrom: #452F00;
   --vermelho: #AC2626;
   --vermelho-escuro: #800000;
+  --vermelho-vivo: #C90000;
   --verde: #22800A;
   --verde-claro: #497E3B;
   --verde-musgo: #34582A;
@@ -40,6 +41,7 @@
   --color-marrom: var(--marrom);
   --color-vermelho: var(--vermelho);
   --color-vermelho-escuro: var(--vermelho-escuro);
+  --color-vermelho-vivo: var(--vermelho-vivo);
   --color-verde: var(--verde);
   --color-verde-claro: var(--verde-claro);
   --color-verde-musgo: var(--verde-musgo);
