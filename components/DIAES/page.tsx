@@ -1,7 +1,7 @@
 "use server";
 
 import Image from "next/image";
-import diexe1 from '@/public/diexe1.png';
+import diaes from '@/public/diretorias/logos/DIAES.png';
 
 export default async function DIAES() {
   return (
@@ -16,7 +16,7 @@ export default async function DIAES() {
           <p className="text-[20px]">Responsável por prestar apoio aos alunos, assegurando a proteção de seus direitos e o cumprimento de seus deveres. Essa diretoria está envolvida em todas as questões relacionadas aos estudantes, visando proporcionar um ambiente favorável ao desenvolvimento acadêmico e pessoal dos mesmos.</p>
 
           {/* Imagens */}
-          <Image src={diexe1} alt="" className="aspect-square min-w-100 w-4/5 max-w-150 border-24 border-white absolute top-[calc(50%-50px)] left-[-110%] -translate-y-1/2 translate-x-1/2 rounded-2xl shadow-[10px_10px_30px_0px_rgba(0,0,0,25)]" />
+          <Image src={diaes} alt="" className="aspect-square min-w-100 w-4/5 max-w-150 border-24 border-white absolute top-[calc(50%-50px)] left-[-110%] -translate-y-1/2 translate-x-1/2 rounded-2xl shadow-[10px_10px_30px_0px_rgba(0,0,0,25)]" />
         </div>
       </section>
       <div className="h-50 invisible" aria-hidden />

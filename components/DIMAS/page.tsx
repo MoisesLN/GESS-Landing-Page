@@ -2,6 +2,14 @@
 
 import Image from "next/image";
 import diexe1 from '@/public/diexe1.png';
+import dimas from '@/public/diretorias/logos/DIMAS.png';
+import card1 from '@/public/diretorias/dimas/card1.png';
+import card2 from '@/public/diretorias/dimas/card2.png';
+import card3 from '@/public/diretorias/dimas/card3.png';
+import card4 from '@/public/diretorias/dimas/card4.png';
+import doacaoSangue3 from '@/public/diretorias/dimas/doacao_sangue3.png';
+import doacaoSangue4 from '@/public/diretorias/dimas/doacao_sangue4.png';
+
 
 export default async function DIMAS() {
   return (
@@ -16,9 +24,9 @@ export default async function DIMAS() {
           <p className="text-[20px] absolute top-3/5 right-0 w-150">Responsável por promover a conscientização sobre questões relacionadas à saúde e ao meio ambiente. Além disso, essa diretoria mantém relações com entidades de saúde e meio ambiente, buscando parcerias e recursos para a implementação de ações nesses âmbitos.</p>
 
           {/* Imagens */}
-          <Image src={diexe1} alt="" className="aspect-square w-75 border-24 border-white absolute -top-1/10 left-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
+          <Image src={dimas} alt="" className="aspect-square w-75 border-24 border-white absolute -top-1/10 left-0 rounded-2xl" />
+          <Image src={doacaoSangue4} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
+          <Image src={doacaoSangue3} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
         </div>
       </section>
 
@@ -37,10 +45,10 @@ export default async function DIMAS() {
                 A iniciativa contou com uma palestra informativa e mobilizações de estudantes e colaboradores do IFRN até o Hemocentro de Caicó. Ao todo, foram realizadas 23 doações de sangue e quase 100 pessoas foram conscientizadas. Além de incentivar novos doadores, o projeto promoveu o retorno de participantes ao Hemocentro, estimulando a continuidade das doações. A iniciativa reforçou o compromisso da DIMAS com a promoção da saúde, a solidariedade e o bem-estar coletivo.
               </p>
             </div>
-            <Image src={diexe1} alt="" className="absolute -left-5 top-0 aspect-20/27.5 w-40" /> {/* Imagem da esquerda */}
-            <Image src={diexe1} alt="" className="absolute left-40 top-0 aspect-20/27.5 w-40" /> {/* Imagem da direita */}
-            <Image src={diexe1} alt="" className="absolute -left-5 top-57 aspect-4/2 w-85 z-2" /> {/* Imagem do centro*/}
-            <Image src={diexe1} alt="" className="absolute -left-5 top-102 aspect-4/2 w-85 z-2" /> {/* Imagem de baixo*/}
+            <Image src={card1} alt="" className="absolute -left-5 top-0 aspect-20/27.5 w-40" /> {/* Imagem da esquerda */}
+            <Image src={card2} alt="" className="absolute left-40 top-0 aspect-20/27.5 w-40" /> {/* Imagem da direita */}
+            <Image src={card3} alt="" className="absolute -left-5 top-57 aspect-4/2 w-85 z-2" /> {/* Imagem do centro*/}
+            <Image src={card4} alt="" className="absolute -left-5 top-102 aspect-4/2 w-85 z-2" /> {/* Imagem de baixo*/}
           </div>
         </div>
       </section>

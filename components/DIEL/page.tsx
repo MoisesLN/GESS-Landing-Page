@@ -1,7 +1,7 @@
 "use server";
 
 import Image from "next/image";
-import diexe1 from '@/public/diexe1.png';
+import diel from '@/public/diretorias/logos/DIEL.png';
 
 export default async function DIEL() {
   return (
@@ -17,7 +17,7 @@ export default async function DIEL() {
             <p className="text-[20px]">Responsável por promover as práticas esportivas entre os discentes do campus, incentivando hábitos de interação saudáveis. Essa diretoria está associada ao incentivo da prática de esporte, colaboração e organização de eventos voltados para o lazer, diretamente relacionados aos estudantes e ao setor esportivo escolar. </p>
 
             {/* Imagens */}
-            <Image src={diexe1} alt="" className="aspect-square min-w-100 border-24 border-white absolute top-[calc(50%-50px)] -right-1/2 -translate-y-1/2 translate-x-1/2 rounded-2xl w-4/5 max-w-150 shadow-[10px_10px_30px_0px_rgba(0,0,0,25)]" />
+            <Image src={diel} alt="" className="aspect-square min-w-100 border-24 border-white absolute top-[calc(50%-50px)] -right-1/2 -translate-y-1/2 translate-x-1/2 rounded-2xl w-4/5 max-w-150 shadow-[10px_10px_30px_0px_rgba(0,0,0,25)]" />
           </div>
 
         </div>

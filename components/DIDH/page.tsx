@@ -1,7 +1,16 @@
 "use server";
 
 import Image from "next/image";
-import diexe1 from '@/public/diexe1.png';
+import didh from '@/public/diretorias/logos/DIDH.png';
+import cartazes1 from '@/public/diretorias/didh/oficina_cartazes1.png'
+import cartazes_afetivos from '@/public/diretorias/didh/cartazes_afetivos.png'
+import card1 from '@/public/diretorias/didh/oficina_cartazes2.png'
+import card12 from '@/public/diretorias/didh/mural_afetivo2.png'
+import card13 from '@/public/diretorias/didh/mural_afetivo1.png'
+import card2 from '@/public/diretorias/didh/oficina_cartazes3.png'
+import card22 from '@/public/diretorias/didh/oficina_cartazes4.png'
+import didhRainbow from '@/public/diretorias/didh/rainbow.png'
+
 import rainbow from '@/public/rainbow.png';
 import './style.css';
 
@@ -18,9 +27,9 @@ export default async function DIDH() {
           <p className="text-[20px] absolute top-3/5 right-0 w-150">Responsável por garantir que os direitos dos alunos sejam respeitados em sua plenitude. Essa diretoria promove a  conscientização sobre temáticas relacionadas aos direitos humanos, visando a formação de uma comunidade escolar engajada, promovendo a igualdade, justiça e respeito mútuo.</p>
 
           {/* Imagens */}
-          <Image src={diexe1} alt="" className="aspect-square w-75 border-24 border-white absolute -top-1/10 left-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
-          <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
+          <Image src={didh} alt="" className="aspect-square w-75 border-24 border-white absolute -top-1/10 left-0 rounded-2xl" />
+          <Image src={cartazes1} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
+          <Image src={cartazes_afetivos} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
         </div>
       </section>
 
@@ -36,17 +45,17 @@ export default async function DIDH() {
             <div className="card bg-verde w-full p-16! relative mb-16!">
               <h1>Mural Afetivo</h1>
               <p className="max-w-4/6">Espaço construído a partir de oficinas de cartazes, onde os estudantes compartilham ideias, vivências e mensagens sobre diversidade, respeito e acolhimento. Depois, os cartazes ganham espaço nos corredores da escola.</p>
-              <Image src={diexe1} alt="" className="absolute right-40 bottom-25 aspect-20/27.5 w-40" /> {/* Imagem da esquerda */}
-              <Image src={diexe1} alt="" className="absolute -right-5 bottom-25 aspect-20/27.5 w-40" /> {/* Imagem da direita */}
-              <Image src={diexe1} alt="" className="absolute -right-5 -bottom-20 aspect-4/2 w-85 z-2" /> {/* Imagem de baixo*/}
+              <Image src={card1} alt="" className="absolute right-40 bottom-25 aspect-20/27.5 w-40" /> {/* Imagem da esquerda */}
+              <Image src={card12} alt="" className="absolute -right-5 bottom-25 aspect-20/27.5 w-40" /> {/* Imagem da direita */}
+              <Image src={card13} alt="" className="absolute -right-5 -bottom-20 aspect-4/2 w-85 z-2" /> {/* Imagem de baixo*/}
               <Image src={rainbow} alt="" className="absolute right-22 bottom-10 aspect-square w-30 z-3" /> {/* Imagem central*/}
             </div>
             {/* Segundo Card */}
             <div className="card bg-vermelho relative w-[calc(50%-16px)] pl-40!">
               <h1>Rodas de Conversa</h1>
               <p>Momentos de encontro entre estudantes, com o intuito de aproximar suas vivências, compartilhar histórias e experiências. Um espaço de diálogo, escuta e acolhimento, onde todos têm espaço para falar e ser ouvidos.</p>
-              <Image src={diexe1} alt="" className="absolute -left-5 -top-5 aspect-20/19 w-40" /> {/* Imagem de cima */}
-              <Image src={diexe1} alt="" className="absolute -left-5 top-35 aspect-20/25 w-40" /> {/* Imagem de baixo */}
+              <Image src={card22} alt="" className="absolute -left-5 -top-5 aspect-20/19 w-40" /> {/* Imagem de cima */}
+              <Image src={card2} alt="" className="absolute -left-5 top-35 aspect-20/25 w-40" /> {/* Imagem de baixo */}
 
             </div>
             {/* Terceiro Card */}

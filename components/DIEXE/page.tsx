@@ -2,6 +2,9 @@
 
 import Image from "next/image";
 import diexe1 from '@/public/diexe1.png'
+import banner from '@/public/diretorias/diexe/banner.png'
+import diretoria from '@/public/diretorias/diexe/diretoria.png'
+import presidente from '@/public/diretorias/diexe/presidente.png'
 
 export default async function DIEXE() {
   return (
@@ -16,8 +19,8 @@ export default async function DIEXE() {
 
         {/* Imagens */}
         <Image src={diexe1} alt="" className="aspect-square w-75 border-24 border-black absolute -top-1/10 left-0 rounded-2xl" />
-        <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
-        <Image src={diexe1} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
+        <Image src={banner} alt="" className="aspect-75/40 w-150 absolute -top-1/16 right-0 rounded-2xl" />
+        <Image src={diretoria} alt="" className="aspect-75/40 w-150 absolute -bottom-15 left-0 rounded-2xl" />
       </div>
     </section>
   )
