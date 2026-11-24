@@ -1,5 +1,6 @@
 "use server";
 
+import DIAES from "@/components/DIAES/page";
 import DIARC from "@/components/DIARC/page";
 import DIDH from "@/components/DIDH/page";
 import DIEL from "@/components/DIEL/page";
@@ -21,6 +22,7 @@ export default async function Home() {
       <DIARC />
       <DIMAS />
       <DIEL />
+      <DIAES />
     </main>
   );
 }

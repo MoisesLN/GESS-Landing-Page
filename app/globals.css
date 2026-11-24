@@ -23,6 +23,7 @@
   --ciano: #54B5AA;
   --azul: #2660AC;
   --roxo: #3E26AC;
+  --rosa: #C88888;
   --rosa-medio: #E9B1B1;
   --rosa-escuro: #E07272;
 }
@@ -44,6 +45,7 @@
   --color-ciano: var(--ciano);
   --color-azul: var(--azul);
   --color-roxo: var(--roxo);
+  --color-rosa: var(--rosa);
   --color-rosa-medio: var(--rosa-medio);
   --color-rosa-escuro: var(--rosa-escuro);
 }
