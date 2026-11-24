@@ -9,7 +9,7 @@ export default async function DIEL() {
       <section className="h-150 flex justify-center bg-ciano" id="diel">
         <div className='flex flex-col gap-3 justify-center flex-1 relative text-white max-w-400!'>
           {/* Texto */}
-          <div className="text max-w-1/2! relative">
+          <div className="text max-w-1/2! relative flex flex-col gap-3">
             <div className="title">
               <h1 className="text-8xl font-bold">DIEL</h1>
               <h2 className="text-[32px] leading-8 ">Diretoria de Esporte e Lazer</h2>

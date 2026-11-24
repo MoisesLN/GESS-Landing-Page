@@ -2,6 +2,7 @@
 
 import DIAES from "@/components/DIAES/page";
 import DIARC from "@/components/DIARC/page";
+import DICOM from "@/components/DICOM/page";
 import DIDH from "@/components/DIDH/page";
 import DIEL from "@/components/DIEL/page";
 import DIEXE from "@/components/DIEXE/page";
@@ -23,6 +24,7 @@ export default async function Home() {
       <DIMAS />
       <DIEL />
       <DIAES />
+      <DICOM />
     </main>
   );
 }
