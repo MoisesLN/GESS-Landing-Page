@@ -6,7 +6,7 @@ import './style.css'
 
 export default async function Footer() {
   return (
-    <footer className="flex flex-col items-center w-full bg-laranja-escuro text-white">
+    <footer id="redes" className="flex flex-col items-center w-full bg-laranja-escuro text-white">
       <div className="p-8! max-w-300! w-full flex justify-between">
         <Image width={200} height={40} src={gess_white} alt='' className="brightness-200 h-10 w-35"/>
         <p className="flex gap-2 items-center font-semibold">

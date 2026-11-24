@@ -6,7 +6,7 @@ import dicom from '@/public/diretorias/logos/DICOM.png';
 export default async function DICOM() {
   return (
     <>
-      <section className="h-150 flex justify-center bg-laranja" id="DICOM">
+      <section className="h-150 flex justify-center bg-laranja" id="dicom">
         <div className='flex flex-col gap-3 justify-center flex-1 relative text-white max-w-400!'>
           {/* Texto */}
           <div className="text max-w-1/2! relative flex flex-col gap-3">

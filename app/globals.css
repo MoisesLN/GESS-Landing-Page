@@ -69,6 +69,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section > div, header > div {
   max-width: 1600px;
   padding: 0 32px;

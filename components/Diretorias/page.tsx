@@ -23,12 +23,12 @@ export default async function Diretorias() {
           <span className='text-black text-[20px]'>Acesse todas as diretorias da Gestão clicando para ver mais informações.</span>
         </div>
         <div className="images flex gap-5 *:aspect-square">
-          <a href="#"><Image src={DIAES} alt="" className="h-62.5 rounded-2xl"/></a>
-          <a href="#"><Image src={DIARC} alt="" className="h-62.5 rounded-2xl"/></a>
-          <a href="#"><Image src={DICOM} alt="" className="h-62.5 rounded-2xl"/></a>
-          <a href="#"><Image src={DIDH} alt="" className="h-62.5 rounded-2xl"/></a>
-          <a href="#"><Image src={DIEL} alt="" className="h-62.5 rounded-2xl"/></a>
-          <a href="#"><Image src={DIMAS} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#diaes"><Image src={DIAES} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#diarc"><Image src={DIARC} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#dicom"><Image src={DICOM} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#didh"><Image src={DIDH} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#diel"><Image src={DIEL} alt="" className="h-62.5 rounded-2xl"/></a>
+          <a href="#dimas"><Image src={DIMAS} alt="" className="h-62.5 rounded-2xl"/></a>
         </div>
       </div>
     </section>
