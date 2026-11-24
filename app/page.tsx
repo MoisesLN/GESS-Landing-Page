@@ -2,6 +2,7 @@
 
 import DIARC from "@/components/DIARC/page";
 import DIDH from "@/components/DIDH/page";
+import DIEL from "@/components/DIEL/page";
 import DIEXE from "@/components/DIEXE/page";
 import DIMAS from "@/components/DIMAS/page";
 import Diretorias from "@/components/Diretorias/page";
@@ -19,6 +20,7 @@ export default async function Home() {
       <DIDH />
       <DIARC />
       <DIMAS />
+      <DIEL />
     </main>
   );
 }

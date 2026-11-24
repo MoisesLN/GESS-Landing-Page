@@ -2,12 +2,11 @@
 
 import Image from "next/image";
 import diexe1 from '@/public/diexe1.png';
-import rainbow from '@/public/rainbow.png';
 
 export default async function DIMAS() {
   return (
     <>
-      <section className="h-150 flex justify-center bg-verde-claro" id="diarc">
+      <section className="h-150 flex justify-center bg-verde-claro" id="dimas">
         <div className='flex flex-col gap-3 justify-center flex-1 relative text-white'>
           {/* Texto */}
           <div className="title absolute top-20 left-115">
