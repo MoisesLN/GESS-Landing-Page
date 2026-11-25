@@ -1,0 +1,10 @@
+.images {
+    scrollbar-width: none;
+    gap: none;
+}
+
+@media (max-width: 425px) {
+    .images {
+        gap:10px
+    }
+}

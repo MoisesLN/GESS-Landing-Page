@@ -5,3 +5,16 @@
   background-position: center;
   box-shadow: inset 650px 4px 250px 50px rgba(0,0,0,.25), inset 700px 0px 250px 0px rgba(12,8,0,.5), inset 0 0 0 1000px rgba(69,47,0,.4);
 }
+
+#sobre-nos > div {
+  padding: 80px 32px;
+}
+
+@media (max-width: 425px) {
+  #sobre-nos {
+    background-image: url('@/public/hero_mobile.png');
+    background-position: center;
+    background-size: fill;
+    box-shadow: inset 0px -400px 250px 20px rgba(0, 0, 0, 0.25), inset 0px -400px 250px 0px rgba(12, 8, 0, 0.5), inset 0 0 0 1000px rgba(77, 52, 0, 0.4);
+  }
+}

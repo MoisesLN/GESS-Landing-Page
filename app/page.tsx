@@ -20,7 +20,7 @@ export default async function Home() {
       <Hero />
       <Diretorias />
       <DIEXE />
-      <div className="h-50 invisible" aria-hidden />
+      <div className="h-20 lg:h-50 invisible" aria-hidden />
       <DIDH />
       <DIARC />
       <DIMAS />

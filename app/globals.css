@@ -100,3 +100,20 @@ header {
 img {
   object-fit: cover !important;
 }
+
+@media (max-width: 425px) {
+  .card {
+    border-radius: .5em;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    & h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    & p {
+      font-size: 16px;
+    }
+  }
+}
